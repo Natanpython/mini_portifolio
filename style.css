@@ -1,0 +1,77 @@
+body{
+    height: 700px;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+    
+}
+.container{
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.432);
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    
+}
+.container .perfil img{
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 100%;
+   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info .nome{
+    color: white;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.info p{
+    font-size: 13px;
+    color: hsl(75, 94%, 57%);
+    padding: 10px 0;
+}
+.info .profissional{
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+    font-weight: 400;
+
+}
+.redes .lista  li {
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 10px;
+    background-color: hsl(0, 0%, 20%);
+
+    
+}
+.redes .lista li a{
+    text-decoration: none;
+    color: #fff;
+     
+}
+.redes .lista li a:hover{
+    color: black;
+    font-weight: 700;  
+    
+}
+@media(max-width: 375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
